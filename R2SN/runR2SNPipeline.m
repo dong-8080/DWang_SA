@@ -3,8 +3,8 @@ function runR2SNPipeline()
     addpath(genpath(current_dir));
     %%% >>>>>>>>>>>>>>>>>>>>>>  main config <<<<<<<<<<<<<<<<<<<<<<<<< %%%
     %%% >>>>>>>>>>>>>>>>>>>>>>  main config <<<<<<<<<<<<<<<<<<<<<<<<< %%%
-    output_path = 'F:\CJFH\organized_data\R2SN';
-    mri_paths_file = 'F:\CJFH\organized_data\imglist.txt';
+    output_path = 'path\to\R2SN';
+    mri_paths_file = 'path\to\imglist.txt';
     atlas_path = fullfile(current_dir, 'template', 'BN_Atlas_246_1mm.nii');
     
     % Specify feature files
